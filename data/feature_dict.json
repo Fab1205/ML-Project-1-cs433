@@ -1,0 +1,2624 @@
+{
+    "_STATE": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "discard": true
+    },
+    "FMONTH": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "discard": true
+    },
+    "IDATE": {
+        "type": "categorical",
+        "discard": true
+    },
+    "IMONTH": {
+        "type": "categorical",
+        "discard": true
+    },
+    "IDAY": {
+        "type": "categorical",
+        "discard": true
+    },
+    "IYEAR": {
+        "type": "categorical",
+        "discard": true
+    },
+    "DISPCODE": {
+        "type": "categorical",
+        "discard": true
+    },
+    "SEQNO": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_PSU": {
+        "type": "categorical",
+        "discard": true
+    },
+    "CTELENUM": {
+        "type": "categorical",
+        "discard": true
+    },
+    "PVTRESD1": {
+        "type": "categorical",
+        "discard": true
+    },
+    "COLGHOUS": {
+        "type": "categorical",
+        "discard": true
+    },
+    "STATERES": {
+        "type": "categorical",
+        "discard": true
+    },
+    "CELLFON3": {
+        "type": "categorical",
+        "discard": true
+    },
+    "LADULT": {
+        "type": "categorical",
+        "discard": true
+    },
+    "NUMADULT": {
+        "type": "ordinal",
+        "discard": true
+    },
+    "NUMMEN": {
+        "type": "ordinal",
+        "discard": true
+    },
+    "NUMWOMEN": {
+        "type": "ordinal",
+        "discard": true
+    },
+    "CTELNUM1": {
+        "type": "categorical",
+        "discard": true
+    },
+    "CELLFON2": {
+        "type": "categorical",
+        "discard": true
+    },
+    "CADULT": {
+        "type": "categorical",
+        "discard": true
+    },
+    "PVTRESD2": {
+        "type": "categorical",
+        "discard": true
+    },
+    "CCLGHOUS": {
+        "type": "categorical",
+        "discard": true
+    },
+    "CSTATE": {
+        "type": "categorical",
+        "discard": true
+    },
+    "LANDLINE": {
+        "type": "categorical",
+        "discard": true
+    },
+    "HHADULT": {
+        "type": "ordinal",
+        "discard": true
+    },
+    "GENHLTH": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PHYSHLTH": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "MENTHLTH": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "POORHLTH": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "HLTHPLN1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PERSDOC2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "MEDCOST": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CHECKUP1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "BPHIGH4": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "BPMEDS": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "BLOODCHO": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CHOLCHK": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "TOLDHI2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CVDSTRK3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ASTHMA3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ASTHNOW": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CHCSCNCR": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CHCOCNCR": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CHCCOPD1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HAVARTH3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ADDEPEV2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CHCKIDNY": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "DIABETE3": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "DIABAGE2": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            98,
+            99
+        ]
+    },
+    "SEX": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary"
+    },
+    "MARITAL": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "EDUCA": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "RENTHOM1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "NUMHHOL2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "NUMPHON2": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CPDEMO1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "VETERAN3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "EMPLOY1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "CHILDREN": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "INCOME2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "INTERNET": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "WEIGHT2": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "special_weights",
+        "invalid_values": [
+            7777,
+            9999
+        ],
+        "discard": true
+    },
+    "HEIGHT3": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "special_weights",
+        "invalid_values": [
+            7777,
+            9999
+        ],
+        "discard": true
+    },
+    "PREGNANT": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "QLACTLM2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "USEEQUIP": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "BLIND": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "DECIDE": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "DIFFWALK": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "DIFFDRES": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "DIFFALON": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "SMOKE100": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "SMOKDAY2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "STOPSMK2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "LASTSMK2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "USENOW3": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ALCDAY5": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "past_30_days",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "888": 0
+        }
+    },
+    "AVEDRNK2": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "DRNK3GE5": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "MAXDRNKS": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "FRUITJU1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "frequency",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "555": 0
+        }
+    },
+    "FRUIT1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "frequency",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "555": 0
+        }
+    },
+    "FVBEANS": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "frequency",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "555": 0
+        }
+    },
+    "FVGREEN": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "frequency",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "555": 0
+        }
+    },
+    "FVORANG": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "frequency",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "555": 0
+        }
+    },
+    "VEGETAB1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "frequency",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "555": 0
+        }
+    },
+    "EXERANY2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "EXRACT11": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "EXEROFT1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "frequency",
+        "invalid_values": [
+            777,
+            999
+        ]
+    },
+    "EXERHMM1": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            777,
+            999
+        ]
+    },
+    "EXRACT21": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "EXEROFT2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "frequency",
+        "invalid_values": [
+            777,
+            999
+        ]
+    },
+    "EXERHMM2": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            777,
+            999
+        ]
+    },
+    "STRENGTH": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "past_30_days",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "888": 0
+        }
+    },
+    "LMTJOIN3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ARTHDIS2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ARTHSOCL": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "JOINPAIN": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "SEATBELT": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ],
+        "special_cases": {
+            "8": 0
+        }
+    },
+    "FLUSHOT6": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "FLSHTMY2": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "date",
+        "invalid_values": [
+            777777,
+            999999
+        ],
+        "discard": true
+    },
+    "IMFVPLAC": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "PNEUVAC3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HIVTST6": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HIVTSTD3": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "date",
+        "invalid_values": [
+            777777,
+            999999
+        ],
+        "discard": true
+    },
+    "WHRTST10": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "PDIABTST": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PREDIAB1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "INSULIN": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "BLDSUGAR": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "health_check",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "888": 0
+        }
+    },
+    "FEETCHK2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "health_check",
+        "invalid_values": [
+            777,
+            999,
+            555
+        ],
+        "special_cases": {
+            "888": 0
+        }
+    },
+    "DOCTDIAB": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "CHKHEMO3": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            98,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "FEETCHK": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "EYEEXAM": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ],
+        "special_cases": {
+            "8": 0
+        }
+    },
+    "DIABEYE": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "DIABEDU": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CAREGIV1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            8,
+            9
+        ]
+    },
+    "CRGVREL1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "CRGVLNG1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CRGVHRS1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CRGVPRB1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "CRGVPERS": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CRGVHOUS": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CRGVMST2": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CRGVEXPT": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "VIDFCLT2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            8
+        ]
+    },
+    "VIREDIF3": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7
+        ]
+    },
+    "VIPRFVS2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "VINOCRE2": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "VIEYEXM2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ],
+        "special_cases": {
+            "8": "blind"
+        }
+    },
+    "VIINSUR2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            8,
+            9
+        ]
+    },
+    "VICTRCT4": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7
+        ]
+    },
+    "VIGLUMA2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7
+        ]
+    },
+    "VIMACDG2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7
+        ]
+    },
+    "CIMEMLOS": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CDHOUSE": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CDASSIST": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CDHELP": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CDSOCIAL": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CDDISCUS": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "WTCHSALT": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "LONGWTCH": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "health_check",
+        "invalid_values": [
+            777,
+            999
+        ]
+    },
+    "DRADVISE": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ASTHMAGE": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            98,
+            99
+        ],
+        "special_cases": {
+            "97": 10
+        }
+    },
+    "ASATTACK": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ASERVIST": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            98
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ASDRVIST": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            98
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ASRCHKUP": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            98,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ASACTLIM": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            777,
+            999
+        ],
+        "special_cases": {
+            "888": 0
+        }
+    },
+    "ASYMPTOM": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ],
+        "special_cases": {
+            "8": 0
+        }
+    },
+    "ASNOSLEP": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7
+        ],
+        "special_cases": {
+            "8": 0
+        }
+    },
+    "ASTHMED3": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ],
+        "special_cases": {
+            "8": 0
+        }
+    },
+    "ASINHALR": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ],
+        "special_cases": {
+            "8": 0
+        }
+    },
+    "HAREHAB1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "STREHAB1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CVDASPRN": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ASPUNSAF": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "RLIVPAIN": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "RDUCHART": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "RDUCSTRK": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ARTTODAY": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ARTHWGT": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ARTHEXER": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ARTHEDU": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "TETANUS": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HPVADVC2": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HPVADSHT": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "SHINGLE2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HADMAM": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HOWLONG": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HADPAP2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "LASTPAP2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HPVTEST": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HPLSTTST": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HADHYST2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PROFEXAM": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "LENGEXAM": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "BLDSTOOL": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "LSTBLDS3": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HADSIGM3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "HADSGCO1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "LASTSIG3": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PCPSAAD2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PCPSADI1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PCPSARE1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PSATEST1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PSATIME": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PCPSARS1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "PCPSADE1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "PCDMDECN": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "invalid_values": [
+            7,
+            9,
+            12
+        ],
+        "discard": true
+    },
+    "SCNTMNY1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            8,
+            9
+        ]
+    },
+    "SCNTMEL1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            8,
+            9
+        ]
+    },
+    "SCNTPAID": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "SCNTWRK1": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            97,
+            99
+        ],
+        "special_cases": {
+            "98": 0
+        }
+    },
+    "SCNTLPAD": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "SCNTLWK1": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            97,
+            99
+        ],
+        "special_cases": {
+            "98": 0
+        }
+    },
+    "SXORIENT": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "TRNSGNDR": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "RCSGENDR": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "RCSRLTN2": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CASTHDX2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "CASTHNO2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "EMTSUPRT": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "LSATISFY": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ADPLEASR": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ADDOWN": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ADSLEEP": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ADENERGY": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ADEAT1": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ADFAIL": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ADTHINK": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "ADMOVE": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none",
+        "invalid_values": [
+            77,
+            99
+        ],
+        "special_cases": {
+            "88": 0
+        }
+    },
+    "MISTMNT": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "ADANXEV": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "QSTVER": {
+        "type": "categorical",
+        "discard": true
+    },
+    "QSTLANG": {
+        "type": "categorical",
+        "discard": true
+    },
+    "MSCODE": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_STSTR": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_STRWT": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_RAWRAKE": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_WT2RAKE": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_CHISPNC": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_CRACE1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "_CPRACE": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "_CLLCPWT": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_DUALUSE": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_DUALCOR": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_LLCPWT": {
+        "type": "categorical",
+        "discard": true
+    },
+    "_RFHLTH": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_HCVU651": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RFHYPE5": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_CHOLCHK": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RFCHOL": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_LTASTH1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_CASTHM1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_ASTHMS1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_DRDXAR1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary"
+    },
+    "_PRACE1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "_MRACE1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            77,
+            99
+        ]
+    },
+    "_HISPANC": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RACE": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RACEG21": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RACEGR3": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RACE_G1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot"
+    },
+    "_AGEG5YR": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            14
+        ]
+    },
+    "_AGE65YR": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            3
+        ]
+    },
+    "_AGE80": {
+        "type": "numerical",
+        "subtype": "discrete",
+        "encoding": "none"
+    },
+    "_AGE_G": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none"
+    },
+    "HTIN4": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "discard": true
+    },
+    "HTM4": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "WTKG3": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            99999
+        ]
+    },
+    "_BMI5": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "_BMI5CAT": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none"
+    },
+    "_RFBMI5": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_CHLDCNT": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_EDUCAG": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_INCOMG": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_SMOKER3": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RFSMOK3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "DRNKANY5": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            7,
+            9
+        ]
+    },
+    "DROCDY3_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            900
+        ]
+    },
+    "_RFBING5": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_DRNKWEK": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            99900
+        ]
+    },
+    "_RFDRHV5": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "FTJUDA1_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "FRUTDA1_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "BEANDAY_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "GRENDAY_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "ORNGDAY_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "VEGEDA1_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "_MISFRTN": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none"
+    },
+    "_MISVEGN": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none"
+    },
+    "_FRTRESP": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary"
+    },
+    "_VEGRESP": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary"
+    },
+    "_FRUTSUM": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "_VEGESUM": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "_FRTLT1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_VEGLT1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_FRT16": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary"
+    },
+    "_VEG23": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary"
+    },
+    "_FRUITEX": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot"
+    },
+    "_VEGETEX": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot"
+    },
+    "_TOTINDA": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "METVL11_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "METVL21_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "MAXVO2_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            99900
+        ]
+    },
+    "FC60_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            99900
+        ]
+    },
+    "ACTIN11_": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none"
+    },
+    "ACTIN21_": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none"
+    },
+    "PADUR1_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "PADUR2_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "PAFREQ1_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            99000
+        ]
+    },
+    "PAFREQ2_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            99000
+        ]
+    },
+    "_MINAC11": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "_MINAC21": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "STRFREQ_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none",
+        "invalid_values": [
+            99000
+        ]
+    },
+    "PAMISS1_": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "PAMIN11_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "PAMIN21_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "PA1MIN_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "PAVIG11_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "PAVIG21_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "PA1VIGM_": {
+        "type": "numerical",
+        "subtype": "continuous",
+        "encoding": "none"
+    },
+    "_PACAT1": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_PAINDX1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_PA150R2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_PA300R2": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_PA30021": {
+        "type": "categorical",
+        "subtype": "ordinal",
+        "encoding": "none",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_PASTRNG": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_PAREC1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_PASTAE1": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_LMTACT1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_LMTWRK1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_LMTSCL1": {
+        "type": "categorical",
+        "subtype": "nominal",
+        "encoding": "one-hot",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RFSEAT2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_RFSEAT3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_FLSHOT6": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_PNEUMO2": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    },
+    "_AIDTST3": {
+        "type": "categorical",
+        "subtype": "binary",
+        "encoding": "binary",
+        "invalid_values": [
+            9
+        ]
+    }
+}
